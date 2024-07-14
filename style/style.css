@@ -26,6 +26,10 @@
   border-radius: 8px;
   padding:20px 25px;
  }
+ .main-width{
+  max-width: 1440px;
+  margin: 0 auto;
+ }
 /*header style*/
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
@@ -84,12 +88,54 @@ color:#424242;
  .description{
   margin-bottom: 2rem;
  }
+  /*Quick list of Our Features*/
+  .teams{
+    text-align: center;
+    align-items: center;
+    gap:70px;
+    margin-top: 69px;
+
+  }
+  .out-features{
+    text-align:left;
+  }
+  .tems-image-container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px; 
+  }
+  .out-features{
+    max-width: 540px;
+  }
+  #quick-list{
+    font-size: 4rem;
+    font-weight: 500px;
+  }
+  #of-our{
+    font-size:4rem;
+    font-weight: 700px;
+  }
+  #features{
+    font-size:4rem;
+    font-weight: 700px;
+  }
+  .feature-description{
+    margin-bottom:22px 0px 32px 0px;
+  }
  /*responsive-media-query*/
  @media screen and (max-width:576px) {
-  .navbar, .nav-links{
+  .navbar, .nav-links, .teams{
     flex-direction: column;
      align-items: center;
   }
+  .bg-light{
+    padding:0%;
+  }
+  .tems-image-container{
+    grid-template-columns: repeat(1,1fr);
+    gap:0px; 
+  }  
+  
  }
   
 
