@@ -110,6 +110,7 @@ color:#424242;
   #quick-list{
     font-size: 4rem;
     font-weight: 500px;
+    margin-bottom: 24px;
   }
   #of-our{
     font-size:4rem;
@@ -122,6 +123,40 @@ color:#424242;
   .feature-description{
     margin-bottom:22px 0px 32px 0px;
   }
+/*Some Facts*/
+ #some-facts-container{
+  margin-top: 132px;
+ }
+.img-container{
+  width:241px;
+  height:241px;
+  border-color:black;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top:80px;
+}
+.facts-container{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.img-container{
+  border:1px solid #FF900E;
+}
+.facts-header{
+  font-size: 3.4rem;
+  font-weight: 600px;
+  margin-bottom: 
+}
+
+
+
+
+
+
+
  /*responsive-media-query*/
  @media screen and (max-width:576px) {
   .navbar, .nav-links, .teams{
